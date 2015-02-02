@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-gael, ed
-=======
-gael, lily
->>>>>>> 47e7baf936a1acf9637f189f71b64d5b61beb146
+gael, lily, ED
