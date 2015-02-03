@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :users do
   resources :songs
   end
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -57,4 +58,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+

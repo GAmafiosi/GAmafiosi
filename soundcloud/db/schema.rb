@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150202225249) do
     t.string "name"
     t.string "email"
     t.string "password_digest"
+    t.string "location"
     t.string "favorite_artist"
   end
 
