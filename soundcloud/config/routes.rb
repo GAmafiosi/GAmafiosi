@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   get '/users' => 'user#index'
+  get '/session' => 'session#new'
+  post '/session' => 'session#create'
   resources :users do
   resources :songs
   end
